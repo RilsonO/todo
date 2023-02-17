@@ -4,80 +4,80 @@
   <img src="./src/assets/rocket.png" width=300px>
 </p>
 
-> O presente projeto é um App expo maneged de lista de tarefas utilizando `navigation`, `reanimated` e `async storage`. O App contempla toda a parte de criação, alteração e exclusão.
+> The present project is an App expo managed with a list of tasks using `navigation`, `reanimated` e `async storage`. The App covers all the creation, toggle and deletion part.
 
 ## ✨ Features
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+The project is still under development and the next updates will focus on the following tasks:
 
-- ✅Criação de nova tarefa
-- ✅Marcar uma tarefa como feita
-- ✅Excluir uma tarefa
-- ⌛Salvar as tarefas utilizando AsyncStorage
-- ⌛Inserir animação nas tarefas
-- ⌛Gráfico (criadas X realizadas)
+- ✅Creating a New Task
+- ✅Toggle task's done
+- ✅Delete a Task
+- ⌛Save tasks using AsyncStorage
+- ⌛Insert animation into tasks
+- ⌛Graph (created X performed)
 
-## 💻 Pré-requisitos
+## 💻 Prerequisites
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+Before you begin, make sure you've met the following requirements:
 
-- Requisitos mínimos para rodar um projeto Expo: https://docs.expo.dev/get-started/installation/
-- Para rodar o app em um dispositivo real, garanta que o seu dispositivo possui o App ExpoGo atualizado.
+- Minimum requirements to run an Expo project: https://docs.expo.dev/get-started/installation/
+- To run the app on a real device, ensure that your device has the updated ExpoGo App.
 
-## ⚙️ Instalação
+## ⚙️ Install
 
-Para a instalação do projeto, siga as etapas:
+For the installation of the project, follow the steps:
 
-Primeiramente clone o projeto:
+Clone the project:
 
 ```
 git clone https://github.com/RilsonO/todo.git
 ```
 
-Acesse a pasta do projeto:
+Go to project path:
 
 ```
 cd todo
 ```
 
-Execute o comando de instalação de pacotes:
+Run the command to install all packages:
 
 ```
 yarn install
 ```
 
-## 🚀 Executando projeto
+## 🚀 Running the App
 
-Após a instalação dos pacotes basta rodar o comando:
+After installing the packages just run the command:
 
 ```
 npx expo start
 ```
 
-Isso irá abrir um terminal contendo um código de barras e opções adicionais.
+This will open a terminal containing a barcode and additional options.
 
-- Para rodar em um dispositivo Androi, abra o App ExpoGo e clique em: "Scan QR code" e mire no QR code apresentado no terminal.
-- Para rodar em um dispositivo iOS, abra a câmera e mire no QR code apresentado no terminal, depois clique em "Abrir com Expo Go"
-- Para abrir em um emulador Android você precisa estar com o ambiente android configurado, conforme descrito em https://reactnative.dev/docs/environment-setup, depois basta clicar no terminal e pressionar a letra "a".
-- Para abrir em um emulador iOS você precisa estar com o ambiente android configurado, conforme descrito em https://reactnative.dev/docs/environment-setup, depois basta clicar no terminal e pressionar a letra "i".
+- To run on Android device, open the Expo Go App and click on: "Scan QR code" and aim at the QR code displayed on the terminal.
+- To run on iOS device, open the camera and aim at the QR code displayed in the terminal, then click on "Open with Expo Go"
+- To open in Android emulator you need to have the android environment configured, as described in https://reactnative.dev/docs/environment-setup, then just click on the terminal and press the letter "a".
+- To open in iOS emulator you need to have the iOS environment configured, as described in https://reactnative.dev/docs/environment-setup, then just click on the terminal and press the letter "i".
 
-## 🤝 Colaboradores
+## 🤝 Collaborators
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Thanks to the following people who contributed to this project:
 
 <table>
   <tr>
     <td align="center">
       <a href="https://github.com/RilsonO">
-        <img src="https://github.com/RilsonO.png" width="100px;" alt="Foto do Rilson Costa de Oliveira"/><br>
+        <img src="https://github.com/RilsonO.png" width="100px;" alt="Picture of Rilson Costa de Oliveira"/><br>
         <sub>
-          <b>Rilson</b>
+          <b>Rilson C Oliveira</b>
         </sub>
       </a>
     </td>
   </tr>
 </table>
 
-## 📝 Licença
+## 📝 License
 
-Esse projeto está sob licença. Veja o arquivo [MIT Licença](https://opensource.org/licenses/MIT) para mais detalhes.
+This project is under license. see the file [MIT License](https://opensource.org/licenses/MIT) for more details.
